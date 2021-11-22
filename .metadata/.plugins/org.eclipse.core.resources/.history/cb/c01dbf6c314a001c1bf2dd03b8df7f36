@@ -1,0 +1,5 @@
+package com.telecom.kanban.repository;
+
+public interface DeveloperRepository {
+
+}

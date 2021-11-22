@@ -1,0 +1,5 @@
+package com.telecom.kanban.service;
+
+public interface DeveloperService {
+
+}
