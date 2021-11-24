@@ -1,7 +1,0 @@
-package com.telecom.kanban.ServiceImpl;
-
-import com.telecom.kanban.service.TaskService;
-
-public class TaskServiceImpl implements TaskService {
-
-}

@@ -1,7 +1,0 @@
-package com.telecom.kanban.service;
-
-public interface DeveloperService {
-	
-	public List<Developer> findAllDevelopers();
-
-}
