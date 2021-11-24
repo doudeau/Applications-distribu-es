@@ -1,0 +1,12 @@
+package com.telecom.kanban.utils;
+
+public class Constants {
+
+	final public static Long TASK_STATUS_WAITING_ID = 1L; 
+	
+	final public static Long TASK_STATUS_DEV_ID = 2L; 
+	
+	final public static Long TASK_STATUS_FINISH_ID = 3L;
+	
+
+}

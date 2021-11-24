@@ -11,12 +11,14 @@ import lombok.Data;
 public class TaskStatus {
 
 	@Id
-	@GeneratedValue
 	private Long id;
 	
 	private String label;
 
-	public TaskStatus(String label) {
+	public TaskStatus(Long id,String label) {
+		this.id = id;
 		this.label = label;
 	}
+	
+	public TaskStatus() {}
 }

@@ -7,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import com.telecom.kanban.domain.Task;
 
-@Service
 public interface TaskService{
 
 	public Collection<Task> findAllTasks();

@@ -10,13 +10,14 @@ import lombok.Data;
 @Entity
 public class TaskType {
 	@Id
-	@GeneratedValue
 	private Long id;
 	
 	private String label;
 
-	public TaskType(String label) {
+	public TaskType(Long id,String label) {
+		this.id = id;
 		this.label = label;
 	}
+	public TaskType() {}
 }
 
